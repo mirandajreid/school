@@ -1,0 +1,29 @@
+1)First open gitbash
+
+2)Then enter your email and username so gitbash knows you are
+git config --global user.name "mirandajreid"
+git config --global user.email mirandajreid@gmail.com
+
+3)Then name the working directory
+cd 'C:\Users\miran\OneDrive\Documents\MPH\Spring 2020\Advanced Data Analysis\GitBash'
+
+4)Then
+git init
+
+5) Then add the specific folder within the working directory
+git add 'C:\Users\miran\OneDrive\Documents\MPH\Spring 2020\Advanced Data Analysis\GitBash\helloworld.txt'
+
+6) Then say you're commiting something and in the quotes put whatever has been updated for this file
+$ git commit -m 'This is my first commit'
+
+7) Choose where you're adding it to on github
+git remote add origin https://github.com/mirandajreid/school.git
+
+8) And finally push it to github and you're done!
+git push -u origin master
+
+
+
+If you have any other questions check here first : https://coding2share.github.io/ReproducibilityToolkit/Mod5GitHub.html
+
+***Also just as a reminder cannot use Ctrl + C to copy in gitbash MUST RIGHT CLICK to copy*** 
